@@ -1,6 +1,9 @@
 use winit::{dpi::LogicalSize, error::EventLoopError, window::Window};
 use xilem::{
-    view::{button, flex, label, sized_box, FlexExt, FlexSpacer},
+    view::{
+        button, flex, label, sized_box, Axis, CrossAxisAlignment, Flex, FlexExt, FlexSequence,
+        FlexSpacer, MainAxisAlignment,
+    },
     EventLoop, EventLoopBuilder, WidgetView, Xilem,
 };
 
@@ -15,7 +18,7 @@ struct Calculator {
     operation: Option<String>,
 }
 
-#[derive(Debug, Clone)]
+#[derive(Copy, Clone)]
 enum MathOperator {
     Add,
     Subtract,
@@ -54,6 +57,18 @@ impl Calculator {
 
     fn on_equals(&mut self) {
         todo!();
+    }
+
+    fn on_delete(&mut self) {
+        if self.result.is_some() {
+            // Delete does not do anything with the result. Invalid action.
+            return;
+        }
+        let mut num = self.get_current_number();
+        if !num.is_empty() {
+            num.remove(num.len() - 1);
+            self.set_current_number(num);
+        } // else, invalid action
     }
 
     fn on_entered_digit(&mut self, digit: &str) {
@@ -96,6 +111,20 @@ impl Calculator {
     }
 }
 
+fn centered_flex_row<State, Seq: FlexSequence<State>>(sequence: Seq) -> Flex<Seq, State> {
+    flex(sequence)
+        .direction(Axis::Horizontal)
+        .cross_axis_alignment(CrossAxisAlignment::Center)
+}
+
+fn flex_row<State, Seq: FlexSequence<State>>(sequence: Seq) -> Flex<Seq, State> {
+    flex(sequence)
+        .direction(Axis::Horizontal)
+        .cross_axis_alignment(CrossAxisAlignment::Fill)
+        .main_axis_alignment(MainAxisAlignment::SpaceEvenly)
+        .gap(GRID_GAP)
+}
+
 fn display_label(text: &str) -> impl WidgetView<Calculator> {
     label(text).text_size(DISPLAY_FONT_SIZE)
 }
@@ -113,7 +142,7 @@ fn digit_button(digit: &'static str) -> impl WidgetView<Calculator> {
     })
 }
 
-fn operator_button(math_operator: MathOperator) -> WidgetView<Calculator> {
+fn operator_button(math_operator: MathOperator) -> impl WidgetView<Calculator> {
     expanded_button(math_operator.as_str(), move |data: &mut Calculator| {
         data.on_entered_operator(math_operator);
     })
@@ -127,17 +156,35 @@ fn app_logic(data: &mut Calculator) -> impl WidgetView<Calculator> {
             operator_button(operator).flex(1.),
         ))
     };
-    flex(
-        (
-            // Display
-            centered_flex_row((
-                FlexSpacer::Flex(0.1),
-                display_label(data.numbers[0].as_ref()),
-                data.operation
-                    .map(|operation| display_label(operation.as_str())),
-            ))
-        ),
-    )
+    flex((
+        // Display
+        centered_flex_row((
+            FlexSpacer::Flex(0.1),
+            display_label(data.numbers[0].as_ref()),
+            data.operation
+                .clone()
+                .map(|operation| display_label(operation.as_str())),
+            display_label(data.numbers[1].as_ref()),
+            data.result.is_some().then(|| display_label("=")),
+            data.result
+                .as_ref()
+                .map(|result| display_label(result.as_ref())),
+            FlexSpacer::Flex(0.1),
+        ))
+        .flex(1.0),
+        FlexSpacer::Fixed(0.1),
+        // Top row
+        flex_row((
+            expanded_button("CE", Calculator::clear_entry).flex(1.),
+            expanded_button("C", Calculator::clear_all).flex(1.),
+            expanded_button("DEL", Calculator::on_delete).flex(1.),
+            operator_button(MathOperator::Divide).flex(1.),
+        )),
+    ))
+    .gap(GRID_GAP)
+    .cross_axis_alignment(CrossAxisAlignment::Fill)
+    .main_axis_alignment(MainAxisAlignment::End)
+    .must_fill_major_axis(true)
 }
 
 fn run(event_loop: EventLoopBuilder) -> Result<(), EventLoopError> {
