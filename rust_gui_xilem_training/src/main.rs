@@ -162,7 +162,7 @@ fn app_logic(data: &mut Calculator) -> impl WidgetView<Calculator> {
             FlexSpacer::Flex(0.1),
             display_label(data.numbers[0].as_ref()),
             data.operation
-                .clone()
+                .as_ref()
                 .map(|operation| display_label(operation.as_str())),
             display_label(data.numbers[1].as_ref()),
             data.result.is_some().then(|| display_label("=")),
