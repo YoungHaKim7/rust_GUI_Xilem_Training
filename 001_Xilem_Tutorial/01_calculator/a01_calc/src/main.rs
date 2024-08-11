@@ -161,15 +161,15 @@ fn app_logic(data: &mut Calculator) -> impl WidgetView<Calculator> {
         centered_flex_row((
             FlexSpacer::Flex(0.1),
             display_label(data.numbers[0].as_ref()),
-            data.operation
-                .as_ref()
-                .map(|operation| display_label(operation.as_str())),
-            display_label(data.numbers[1].as_ref()),
-            data.result.is_some().then(|| display_label("=")),
-            data.result
-                .as_ref()
-                .map(|result| display_label(result.as_ref())),
-            FlexSpacer::Flex(0.1),
+            // data.operation
+            //     .as_ref()
+            //     .map(|operation| display_label(operation.as_str())),
+            // display_label(data.numbers[1].as_ref()),
+            // data.result.is_some().then(|| display_label("=")),
+            // data.result
+            //     .as_ref()
+            //     .map(|result| display_label(result.as_ref())),
+            // FlexSpacer::Flex(0.1),
         ))
         .flex(1.0),
         FlexSpacer::Fixed(0.1),
