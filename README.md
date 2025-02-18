@@ -2,7 +2,7 @@
 
 # link
 
-- [(외부링크)240605강의내용github](https://github.com/rustnl/meetups/tree/main/20240507-delft/slides)
+- [(외부링크)240605_Xilem_강의내용github(pdf)](https://github.com/rustnl/meetups/tree/main/20240507-delft/slides)
   - https://docs.google.com/presentation/d/1355q8bpSUUCLDNy-YJ1QbaeBBG3px7Bv6YirkLXHIFw/edit#slide=id.p
   - [Xilem설계 분석! Druid부터 어떤 고민을 가지고 GUI를 고성능 최고의 작품을 만들수 있는지 분석해보자](./003_Xilem_an_architecture_for_UI_in_Rust)
 
