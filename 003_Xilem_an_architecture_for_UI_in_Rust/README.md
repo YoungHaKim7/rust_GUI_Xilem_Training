@@ -11,11 +11,11 @@
     </tr>
 <tr align="center">
   <td>Xilem</td>
-  <td>$${\color{green} \verb|**|The Elm<br>Architecture}$$</td>
+  <td>$${\color{green} \verb|**|The}$$<br> $${\color{green} \verb|**|Elm}$$<br>$${\color{green} \verb|**|Architecture}$$</td>
 </tr>
 <tr align="center">
   <td>Synchronized trees</td>
-  <td>$${\color{green} \verb|**|does not require shared mutable state}$$</td>
+  <td>$${\color{green} \verb|**|does_not_require_shared_mutable_state}$$</td>
 </tr>
 <tr align="center">
   <td>Xilem</td>
@@ -23,7 +23,7 @@
 </tr>
 <tr align="center">
   <td>The Xilem architecture는 트리를 생성하고 동기화를 유지하는 것을 기반으로 함. 이러한 방식으로 이전 블로그 게시물인 <a href="https://raphlinus.github.io/ui/druid/2019/11/22/reactive-ui.html">'반응형 UI의 통일된 이론을 향해'Towards principled reactive UI</a> 에서 설명한 아디어를 개선한 것</td>
-  <td>$${\color{green} \verb|**|일반적으로 잘 작동하시만, 명시적인 메시지 유형을 생성하고 이를 디스패치해야 할 필요성은 모호하며, Elm 아키텍처는 구성 요소와 다른 아키텍처를 깔끔하게 인수분해하지 않음. 복잡할수록 ㅠㅠ 망함.}$$</td>
+  <td>$${\color{green} \verb|**|일반적으로 잘 작동하시만,}$$ <br>$${\color{green} \verb|**|명시적인 메시지 유형을 생성하고 이를 디스패치해야 할 필요성은 모호하며,}$$ <br> $${\color{green} \verb|**|Elm 아키텍처는 구성 요소와 다른 아키텍처를 깔끔하게 }$$ <br> $${\color{green} \verb|**|인수분해하지 않음. 복잡할수록 ㅠㅠ 망함.}$$</td>
 </tr>
 </table>
 
