@@ -8,7 +8,7 @@
 
 |The Elm architecture<br>영향을 받은거|
 |-|
-|Ice, Relm, Vizia|
+|[Iced](https://github.com/iced-rs/iced), [Relm](https://github.com/antoyo/relm), [Vizia](https://github.com/vizia/vizia)|
 
 - Rather, to support interactions from the UI, gestures and other related UI actions creates messages which are then sent to an update method which takes central app state. Iced, relm, and Vizia all use some form of this architecture. Generally it works well, but the need to create an explicit message type and dispatch on it is verbose, and the Elm architecture does not support cleanly factored components as well as some other architectures. The Elm documentation specifically warns against components, saying, “actively trying to make components is a recipe for disaster in Elm.”
   - 히려 UI의 상호작용을 지원하기 위해 제스처 및 기타 관련 UI 작업은 메시지를 생성하고, 이 메시지는 중앙 앱 상태를 취하는 업데이트 메서드로 전송됩니다. Ice, Relm, Vizia는 모두 이 아키텍처의 일부 형태를 사용합니다. 일반적으로 잘 작동하지만 명시적인 메시지 유형을 생성하고 이를 디스패치해야 할 필요성은 모호하며, Elm 아키텍처는 깨끗한 요소를 포함한 일부 아키텍처를 지원하지 않습니다. Elm 문서는 특히 구성 요소에 대해 경고하며, "구성 요소를 적극적으로 만들려고 하는 것은 Elm의 재앙을 초래하는 레시피"라고 말합니다
@@ -20,7 +20,7 @@
 
 |Immediate mode|
 |-|
-|egui, makepad|
+|[egui](https://github.com/emilk/egui), [makepad](https://github.com/makepad/makepad)|
 
 
 - Another common architecture is immediate mode GUI, both in a relatively pure form and in a modified form. It is popular in Rust because it doesn’t require shared mutable state. It also benefits from overall system simplicity. However, the model is oversimplified in a number of ways, and it is difficult to do sophisticated layout and other patterns that are easier in retained widget systems. There are also numerous papercuts related to sometimes rendering stale state. (I experimented with a retained widget backend emulating an immediate mode API in the “crochet” architecture experiment and concluded that the result was not compelling). The popular egui crate is solidly an implementation of immediate mode, and makepad is also based on it, though it differs in some important ways.
