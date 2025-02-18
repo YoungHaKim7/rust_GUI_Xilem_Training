@@ -2,11 +2,28 @@
 
 - https://raphlinus.github.io/rust/gui/2022/05/07/ui-architecture.html
 
-<hr />
+
 
 <table>
-<tr>
-  <td>$${\color{green} \verb|**|text}$$</td>
+    <tr>
+    <td colspan="2" align="center">Xilem과 다른 GUI의 차이점
+</td>
+    </tr>
+<tr align="center">
+  <td>Xilem</td>
+  <td>$${\color{green} \verb|**|The Elm<br>Architecture}$$</td>
+</tr>
+<tr align="center">
+  <td>Synchronized trees</td>
+  <td>$${\color{green} \verb|**|does not require shared mutable state}$$</td>
+</tr>
+<tr align="center">
+  <td>Xilem</td>
+  <td>$${\color{green} \verb|**|iced, relm, and Vizia_일부 사용}$$</td>
+</tr>
+<tr align="center">
+  <td>The Xilem architecture는 트리를 생성하고 동기화를 유지하는 것을 기반으로 함. 이러한 방식으로 이전 블로그 게시물인 <a href="https://raphlinus.github.io/ui/druid/2019/11/22/reactive-ui.html">'반응형 UI의 통일된 이론을 향해'Towards principled reactive UI</a> 에서 설명한 아디어를 개선한 것</td>
+  <td>$${\color{green} \verb|**|일반적으로 잘 작동하시만, 명시적인 메시지 유형을 생성하고 이를 디스패치해야 할 필요성은 모호하며, Elm 아키텍처는 구성 요소와 다른 아키텍처를 깔끔하게 인수분해하지 않음. 복잡할수록 ㅠㅠ 망함.}$$</td>
 </tr>
 </table>
 
@@ -16,6 +33,12 @@
 # The Elm Architecture이게 젤 중요한 개념
 - A particularly common architecture for UI in Rust is The Elm Architecture, which also does not require shared mutable state.
   - Rust에서 UI를 위한 특히 일반적인 아키텍처는 Elm Architecture로, 공유 가능한 상태가 필요하지 않습니다.
+
+|||
+|-|-|
+|relatively pure form and<br /> in a modified form. |immediate mode|
+|-|egui|
+
 
 |The Elm architecture<br>영향을 받은거|
 |-|
