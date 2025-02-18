@@ -2,6 +2,36 @@
 
 - https://raphlinus.github.io/rust/gui/2022/05/07/ui-architecture.html
 
+## Table Styling in Markdown
+
+<style>
+    .heatMap {
+        width: 70%;
+        text-align: center;
+    }
+    .heatMap th {
+        background: grey;
+        word-wrap: break-word;
+        text-align: center;
+    }
+    .heatMap tr:nth-child(1) { background: red; }
+    .heatMap tr:nth-child(2) { background: orange; }
+    .heatMap tr:nth-child(3) { background: green; }
+</style>
+
+<div class="heatMap">
+
+| Everything | in this table | is Centered | and the table will only take up 70% of the screen width | 
+| -- | -- | -- | -- |
+| This | is | a | Red Row |
+| This | is | an | Orange Row |
+| This | is | a | Green Row |
+
+</div>
+
+
+<hr />
+
 # The Elm Architecture이게 젤 중요한 개념
 - A particularly common architecture for UI in Rust is The Elm Architecture, which also does not require shared mutable state.
   - Rust에서 UI를 위한 특히 일반적인 아키텍처는 Elm Architecture로, 공유 가능한 상태가 필요하지 않습니다.
