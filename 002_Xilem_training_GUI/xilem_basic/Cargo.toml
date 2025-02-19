@@ -1,0 +1,9 @@
+[package]
+name = "xilem_basic"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+winit = "0.30.9"
+xilem = {git="https://github.com/linebender/xilem"}
+masonry = { git="https://github.com/linebender/xilem"}
