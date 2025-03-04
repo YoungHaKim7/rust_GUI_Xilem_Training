@@ -1,7 +1,13 @@
+# 여기에도 정리중..(glfw3(C/C++/Rust)
+- https://github.com/YoungHaKim7/GUI_Calculator_in_C_glfw3_mesion_build_justfile_Rust
+- [(외부링크) Immediate mode가 왜 안 좋은지 잘 설명됨.(Core-profile vs Immediate mode)](https://learnopengl.com/Getting-started/OpenGL)
+
+
+<hr />
+
 # Xilem: an architecture for UI in Rust
 
 - https://raphlinus.github.io/rust/gui/2022/05/07/ui-architecture.html
-
 
 
 <table>
