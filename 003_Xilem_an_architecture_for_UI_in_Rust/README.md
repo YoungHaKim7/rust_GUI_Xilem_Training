@@ -3,7 +3,7 @@
 - [(외부링크) Immediate mode가 왜 안 좋은지 잘 설명됨.(Core-profile vs Immediate mode)](https://learnopengl.com/Getting-started/OpenGL)
   - [(외부링크)OpenGL공식 사이트 https://www.opengl.org/](https://www.opengl.org/)
   - [(외부링크)_LearnOpenGL https://learnopengl.com/Getting-started/OpenGL](https://learnopengl.com/Getting-started/OpenGL)
-  - [(외부링크)Vulkan이해하기- https://www.vulkan.org/](- https://www.vulkan.org/)
+  - [(외부링크)Vulkan 이해하기 https://www.vulkan.org/](https://www.vulkan.org/)
   - [(외부링크) DXC / ICD / GLSL / HLSL / SPIR-V / VMA / Vulkan Instance, Layer, Loader 용어 이해하기](https://github.com/YoungHaKim7/GUI_Calculator_in_C_glfw3_mesion_build_justfile_Rust?tab=readme-ov-file#dxc--icd--glsl--hlsl--spir-v--vma--vulkan-instance-layer-loader-%EC%9A%A9%EC%96%B4-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0)
 
 
