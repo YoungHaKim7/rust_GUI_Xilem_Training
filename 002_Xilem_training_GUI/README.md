@@ -28,3 +28,14 @@ column_width = 100
 indent_string = "    "
 ```
 
+<hr />
+
+# 알아야할 크레이터 정리
+- Font introspection, complex text shaping and glyph rendering.
+  - 글꼴 성찰, 복잡한 텍스트 형태 및 글리프 렌더링.
+  - https://github.com/dfrg/swash
+
+- Rich text layout library(Parley provides an API for implementing rich text layout. It is backed by Swash.)
+  - 리치 텍스트 레이아웃 라이브러리(Parley는 리치 텍스트 레이아웃을 구현하기 위한 API를 제공합니다. Swash가 지원합니다.)
+  -   https://github.com/linebender/parley
+
