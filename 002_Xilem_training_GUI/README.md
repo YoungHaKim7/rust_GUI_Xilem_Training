@@ -37,5 +37,9 @@ indent_string = "    "
 
 - Rich text layout library(Parley provides an API for implementing rich text layout. It is backed by Swash.)
   - 리치 텍스트 레이아웃 라이브러리(Parley는 리치 텍스트 레이아웃을 구현하기 위한 API를 제공합니다. Swash가 지원합니다.)
-  -   https://github.com/linebender/parley
+  - https://github.com/linebender/parley
+    - The Parley text stack
+      - Currently, Parley directly depends on
+      - four crates: Fontique, Swash, Skrifa, and Peniko.
+        - These crates cover different pieces of the text-rendering process.
 
