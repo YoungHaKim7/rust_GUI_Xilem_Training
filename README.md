@@ -545,3 +545,12 @@ ChatGPT
 - Then I can compute the type by running these steps on top. I'm going to ask the environment to look up the variable x. You see that I put the question mark? That's because, actually, the way it's defined can return
 
    - 23분 58초
+
+<hr />
+
+# 최신뉴스 긴제목들 따로 정리
+
+# **[GN⁺: 나는 좋은 병렬 컴퓨터를 원해요](<https://news.hada.io/topic?id=19912&utm_source=discord&utm_medium=bot&utm_campaign=1480>)**
+- GPU는 CPU보다 **10~100배 더 강력**하지만, 동적 작업 처리에 어려움이 있고 **병렬 프로그래밍 도구가 부족**해 일반 작업에서 **성능을 충분히 활용하지 못하고 있음**  
+  - 과거에 Connection Machine, Cell, Larrabee 같은 병렬 컴퓨터 디자인이 있었지만 프로그래밍 모델의 복잡성 등으로 실패함  
+  - 현대 GPU는 …
