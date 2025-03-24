@@ -1,7 +1,12 @@
 # rust_GUI_Xilem_Training
 - https://github.com/linebender
+  - https://github.com/linebender/xilem
 
 # link
+
+- [최신뉴스(Latest_News)](#최신글-latest-news)
+
+- [Xelem요약](#xilem)
 
 - [(외부링크)240605_Xilem_강의내용github(pdf)](https://github.com/rustnl/meetups/tree/main/20240507-delft/slides)
   - https://docs.google.com/presentation/d/1355q8bpSUUCLDNy-YJ1QbaeBBG3px7Bv6YirkLXHIFw/edit#slide=id.p
@@ -44,6 +49,7 @@
 - https://youtu.be/OvfNipIcRiQ?si=vn6pX8pVNB1dqSYq
   
 # 최신글 Latest News[|🔝|](#link)
+- [250324_나는 좋은 병렬 컴퓨터를 원해요](#gn-나는-좋은-병렬-컴퓨터를-원해요)
 - 240119 https://linebender.org/blog/xilem-backend-roadmap/
 
 <hr>
