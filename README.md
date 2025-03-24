@@ -6,7 +6,7 @@
 
 - [최신뉴스(Latest_News)](#최신글-latest-news)
 
-- [Xelem요약](#xilem)
+- [Xilem요약](#xilem)
 
 <hr />
 
