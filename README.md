@@ -23,7 +23,7 @@
 
 <hr>
 
-# Xilem
+# Xilem[|🔝|](#link)
 [![crates.io](https://img.shields.io/crates/v/xilem.svg)](https://crates.io/crates/xilem)
 [![Downloads](https://img.shields.io/crates/d/xilem.svg)](https://crates.io/crates/xilem)
 [![docs.rs](https://docs.rs/xilem/badge.svg)](https://docs.rs/xilem)
@@ -43,12 +43,12 @@
 ![1](https://github.com/YoungHaKim7/Cpp_Training/assets/67513038/e550734d-059b-4953-a011-9b315c9c8fa2)
 - https://youtu.be/OvfNipIcRiQ?si=vn6pX8pVNB1dqSYq
   
-# 최신글 
+# 최신글 Latest News[|🔝|](#link)
 - 240119 https://linebender.org/blog/xilem-backend-roadmap/
 
 <hr>
 
-# GPU는 어떻게 작동할까 | bRd 3D
+# GPU는 어떻게 작동할까 | bRd 3D[|🔝|](#link)
 - https://youtu.be/ZdITviTD3VM?si=Vr5NAYIbEncS0FtA
 
 - 필수 단어(3D를 이해하기 위한 상식)
@@ -60,16 +60,16 @@
   - 정점 버퍼(Vertex Buffer)
     - https://vitacpp.tistory.com/71
 
-# '컴퓨터'의 구조는 어떻게 되어있을까? CPU와 메모리! [안될과학 - 랩미팅 15화] | 안될과학 Unrealscience
+# '컴퓨터'의 구조는 어떻게 되어있을까? CPU와 메모리! [안될과학 - 랩미팅 15화] | 안될과학 Unrealscience[|🔝|](#link)
 - https://youtu.be/SiC74U8aJbM?si=t32SXPlahWLzeGLb
 
-# CPU는 어떻게 작동할까? | bRd 3D
+# CPU는 어떻게 작동할까? | bRd 3D[|🔝|](#link)
 - https://youtu.be/Fg00LN30Ezg?si=6rixw2fhGOljPI9r
 
 
 <hr>
 
-# (240605)Xilem: Let's Build High Performance Rust UI - Raph Levien | Rust Nederland (RustNL)[[🔝]](#link)
+# (240605)Xilem: Let's Build High Performance Rust UI - Raph Levien | Rust Nederland (RustNL)[|🔝|](#link)
 - https://youtu.be/OvfNipIcRiQ?si=vn6pX8pVNB1dqSYq
   - 강의내용 github https://github.com/rustnl/meetups/tree/main/20240507-delft/slides
 
@@ -245,7 +245,7 @@ Okay, so give a huge hand to Ralph for his talk. Thank you.
 <br>
 
 
-# Type Theory for Busy Engineers - Niko Matsakis | Rust Nederland (RustNL)[[🔝]](#link)
+# Type Theory for Busy Engineers - Niko Matsakis | Rust Nederland (RustNL)[|🔝|](#link)
 - https://youtu.be/9qLACD9Bfbk?si=jNu4BcHI7-1s4tKy
 
 - Hmm, let's see. It's possible that the VoiceOver settings might need to be adjusted for it to read out loud. Sometimes there could be a delay or a glitch in the system. Would you like me to guide you through checking the VoiceOver settings to ensure it's properly configured?
@@ -548,9 +548,9 @@ ChatGPT
 
 <hr />
 
-# 최신뉴스 긴제목들 따로 정리
+# 최신뉴스 긴제목들 따로 정리[|🔝|](#link)
 
-# **[GN⁺: 나는 좋은 병렬 컴퓨터를 원해요](<https://news.hada.io/topic?id=19912&utm_source=discord&utm_medium=bot&utm_campaign=1480>)**
+# **[GN⁺: 나는 좋은 병렬 컴퓨터를 원해요](<https://news.hada.io/topic?id=19912&utm_source=discord&utm_medium=bot&utm_campaign=1480>)**[|🔝|](#link)
 - GPU는 CPU보다 **10~100배 더 강력**하지만, 동적 작업 처리에 어려움이 있고 **병렬 프로그래밍 도구가 부족**해 일반 작업에서 **성능을 충분히 활용하지 못하고 있음**  
   - 과거에 Connection Machine, Cell, Larrabee 같은 병렬 컴퓨터 디자인이 있었지만 프로그래밍 모델의 복잡성 등으로 실패함  
   - 현대 GPU는 …
