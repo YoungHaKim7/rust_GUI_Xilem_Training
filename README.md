@@ -8,13 +8,20 @@
 
 - [Xelem요약](#xilem)
 
+<hr />
+
+- 동영상 강연내용
 - [(외부링크)240605_Xilem_강의내용github(pdf)](https://github.com/rustnl/meetups/tree/main/20240507-delft/slides)
   - https://docs.google.com/presentation/d/1355q8bpSUUCLDNy-YJ1QbaeBBG3px7Bv6YirkLXHIFw/edit#slide=id.p
   - [Xilem설계 분석! Druid부터 어떤 고민을 가지고 GUI를 고성능 최고의 작품을 만들수 있는지 분석해보자](./003_Xilem_an_architecture_for_UI_in_Rust)
 
-- [240605xilem-lets-build-high-performance-rust-ui---raph-levien--rust-nederland-rustnl](#240605xilem-lets-build-high-performance-rust-ui---raph-levien--rust-nederland-rustnl)
+- Xilem을 설명한 귀중한 동영상(240605)
+  - [240605xilem-lets-build-high-performance-rust-ui---raph-levien--rust-nederland-rustnl](#240605xilem-lets-build-high-performance-rust-ui---raph-levien--rust-nederland-rustnl)
 
-- [240605type-theory-for-busy-engineers---niko-matsakis--rust-nederland-rustnl](#type-theory-for-busy-engineers---niko-matsakis--rust-nederland-rustnl)
+- niko-matsakis의 강연내용(240605)
+  - [240605type-theory-for-busy-engineers---niko-matsakis--rust-nederland-rustnl](#type-theory-for-busy-engineers---niko-matsakis--rust-nederland-rustnl)
+
+<hr />
 
 - 컴퓨터 상식
   - [gpu는-어떻게-작동할까--brd-3d & CPU는 어떻게 작동할까? | bRd 3D](#gpu는-어떻게-작동할까--brd-3d)
