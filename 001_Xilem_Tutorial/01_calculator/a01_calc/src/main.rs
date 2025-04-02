@@ -1,10 +1,11 @@
+use masonry::{core::WidgetPod, widgets::SizedBox};
 use winit::{dpi::LogicalSize, error::EventLoopError, window::Window};
 use xilem::{
     view::{
         button, flex, label, sized_box, Axis, CrossAxisAlignment, Flex, FlexExt, FlexSequence,
         FlexSpacer, MainAxisAlignment,
     },
-    EventLoop, EventLoopBuilder, WidgetView, Xilem,
+    Color, EventLoop, EventLoopBuilder, WidgetView, Xilem,
 };
 
 const DISPLAY_FONT_SIZE: f32 = 30.;
@@ -16,6 +17,19 @@ struct Calculator {
     numbers: [String; 2],
     result: Option<String>,
     operation: Option<String>,
+}
+
+#[derive(Clone, Copy)]
+enum CalcAction {
+    Digit(u8),
+    Op(char),
+}
+
+struct CalcButton {
+    inner: WidgetPod<SizedBox>,
+    action: CalcAction,
+    base_color: Color,
+    active_color: Color,
 }
 
 #[derive(Copy, Clone)]
