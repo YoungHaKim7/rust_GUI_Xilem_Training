@@ -1,0 +1,16 @@
+[package]
+name = "a02_calc_part2"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+winit = "0.30.4"
+xilem = {git = "https://github.com/linebender/xilem.git", rev="fad997" }
+xilem_core = { version = "0.1.0", git = "https://github.com/linebender/xilem.git", rev="fad997" }
+masonry = {git = "https://github.com/linebender/xilem.git", rev="fad997" } 
+masonry_core = { git = "https://github.com/linebender/xilem.git", rev="fad997" } 
+parley = { version = "0.3.0", features = ["accesskit"] }
+smallvec = "1.13.2"
+tracing = { version = "0.1.41", default-features = false }
+vello = "0.4.1"
+# accesskit = "0.18.0"
