@@ -24,7 +24,7 @@
 <hr />
 
 - 컴퓨터 상식
-  - [DXC / ICD / GLSL / HLSL / SPIR-V VMA차이점](
+  - [DXC / ICD / GLSL / HLSL / SPIR-V VMA차이점](#dxc--icd--glsl--hlsl--spir-v-vma차이점)
   - [gpu는-어떻게-작동할까--brd-3d & CPU는 어떻게 작동할까? | bRd 3D](#gpu는-어떻게-작동할까--brd-3d)
   - [컴퓨터의-구조는-어떻게-되어있을까-cpu와-메모리-안될과학---랩미팅-15화--안될과학-unrealscience](#컴퓨터의-구조는-어떻게-되어있을까-cpu와-메모리-안될과학---랩미팅-15화--안될과학-unrealscience)
 
