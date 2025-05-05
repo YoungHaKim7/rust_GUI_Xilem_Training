@@ -65,6 +65,21 @@
 # DXC / ICD / GLSL / HLSL / SPIR-V VMA차이점[|🔝|](#link)
 - https://vulkan.lunarg.com/doc/sdk/1.4.304.1/windows/getting_started.html
 
+
+- Terminology
+
+|Term|	Description|
+|-|-|
+|DXC|	Microsoft's Open Source DirectX Shader Compiler|
+|ICD|	Installable Client Driver: A Vulkan compatible display driver|
+|GLSL|	OpenGL Shading Language|
+|HLSL|	DirectX High-Level Shading Language|
+|SPIR-V|	Standard Portable Intermediate Representation is a cross-API intermediate language (IL) that natively represents parallel compute and graphics programs|
+|VMA|	The Vulkan Memory Allocator library provided by AMD.|
+|Vulkan<br> Instance|	The Vulkan API object that stores all per-application states|
+|Vulkan<br> Layer|	A library designed to work as a plug-in for the loader. It usually serves to provide validation and debugging functionality to applications|
+|Vulkan<br> Loader|	A library which implements the Vulkan API entry points and manages layers, extensions, and drivers. It is found in the independent hardware vendor driver installs|
+
 <hr>
 
 
