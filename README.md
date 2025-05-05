@@ -29,7 +29,8 @@
   - [컴퓨터의-구조는-어떻게-되어있을까-cpu와-메모리-안될과학---랩미팅-15화--안될과학-unrealscience](#컴퓨터의-구조는-어떻게-되어있을까-cpu와-메모리-안될과학---랩미팅-15화--안될과학-unrealscience)
 
 - Shader기초
-  - [(외부링크)쉐이더 기술 이해_Shader compiler and tools for SDLSL (Simple Directmedia Layer Shader Language)](https://github.com/YoungHaKim7/SDL3_Rust_Game_Training?tab=readme-ov-file#쉐이더-기술-이해_shader-compiler-and-tools-for-sdlsl-simple-directmedia-layer-shader-language)
+  - [(외부링크)쉐이더 기술 이해_Shader compiler and tools for SDLSL (Simple Directmedia Layer Shader Language)](https://github.com/YoungHaKim7/SDL3_Rust_Game_Training?tab=readme-ov-file#%EC%89%90%EC%9D%B4%EB%8D%94-%EA%B8%B0%EC%88%A0-%EC%9D%B4%ED%95%B4_shader-compiler-and-tools-for-sdlsl-simple-directmedia-layer-shader-language)
+
 
 <hr />
 
