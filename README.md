@@ -28,11 +28,15 @@
   - [gpu는-어떻게-작동할까--brd-3d & CPU는 어떻게 작동할까? | bRd 3D](#gpu는-어떻게-작동할까--brd-3d)
   - [컴퓨터의-구조는-어떻게-되어있을까-cpu와-메모리-안될과학---랩미팅-15화--안될과학-unrealscience](#컴퓨터의-구조는-어떻게-되어있을까-cpu와-메모리-안될과학---랩미팅-15화--안될과학-unrealscience)
 
+- Shader기초
+  - [(외부링크)쉐이더 기술 이해_Shader compiler and tools for SDLSL (Simple Directmedia Layer Shader Language)](#쉐이더-기술-이해_shader-compiler-and-tools-for-sdlsl-simple-directmedia-layer-shader-language)
+
 <hr />
 
 - [외부링크) Xilem: an architecture for UI in Rust](https://raphlinus.github.io/rust/gui/2022/05/07/ui-architecture.html)
 
   - [외부링크)elm architecture_아키텍쳐 이해_(A particularly common architecture for UI in Rust is The Elm Architecture](https://guide.elm-lang.org/webapps/structure.html)
+
 
 <hr>
 
