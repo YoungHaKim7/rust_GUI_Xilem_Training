@@ -20,6 +20,7 @@
 
 - niko-matsakis의 강연내용(240605)
   - [240605type-theory-for-busy-engineers---niko-matsakis--rust-nederland-rustnl](#type-theory-for-busy-engineers---niko-matsakis--rust-nederland-rustnl)
+- [Xilem 2024 plans Reddit글](https://www.reddit.com/r/rust/s/4AeLbaXNHV)
 
 <hr />
 
