@@ -20,7 +20,12 @@
 
 - niko-matsakis의 강연내용(240605)
   - [240605type-theory-for-busy-engineers---niko-matsakis--rust-nederland-rustnl](#type-theory-for-busy-engineers---niko-matsakis--rust-nederland-rustnl)
-- [Xilem 2024 plans Reddit글](https://www.reddit.com/r/rust/s/4AeLbaXNHV)
+- Reddit관련정보
+  - [Xilem 2024 plans Reddit글](https://www.reddit.com/r/rust/s/4AeLbaXNHV)
+  - [Xilem: Rust로 만든 UI 아키텍처](https://www.reddit.com/r/rust/comments/ukk1p4/xilem_an_architecture_for_ui_in_rust/?tl=ko&utm_source=share&utm_medium=mweb3x&utm_name=mweb3xcss&utm_term=1&utm_content=share_button)
+
+- xilem 만든 개발자 홈페이지(좋은글 많다)
+  - https://raphlinus.github.io/rust/gui/2022/05/07/ui-architecture.html
 
 <hr />
 
